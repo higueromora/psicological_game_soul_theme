@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <aside>
+        <img src="assets/Cuphead_Soul.jpe" alt="">
+    </aside>
+    <div class="container">
+        <header class="rules">
+            <h1 class="rules_h1">Reglas</h1>
+            <h1 class="rules_icon">⚔️</h1>
+            <h1 class="music">Musica</h1>
+            <h1 class="music_icon">🎵</h1>
+        </header>
+        <audio class="sound" src="assets/Dark Souls 3 OST Main Theme_a0X0YA6ZfW4.mp3" loop></audio>
+        <main class="container_character">
+            <div class="character">
+                <h1>Florencio</h1>
+                <p class="life1"></p>
+                <img class="character_img1" src="assets/warrior_soul.gif" width="250px" alt="">
+            </div>
+            <div class="character">
+                <h1>Ragnar</h1>
+                <p class="life2"></p>
+                <img src="assets/warrior_soul.gif" width="250px" alt="">
+            </div>
+        </main>
+        <section class="actions">
+            <h1 class="attack">Atacar</h1>
+            <h1 class="counterAttack">Contratacar</h1>
+            <h1 class="meditate">Meditar</h1>
+        </section>
+        <footer class="footer_info">
+            <div class="info">Info de enfrentamiento</div>
+        </footer>
+        <div class="modal">
+            <div class="modal-content">
+                <h2>Ha ganado el jugador</h2>
+                <p class="result"></p>
+                <a class="close" href="index.html"><button>
+                    Reintentar
+                </button></a>
+            </div>
+        </div>
+        <div class="rules_info">
+            <div class="rules-content">
+                <h2>Hola Florencio</h2>
+                <p>Si los 2 jugadores atacan: ambos reciben un punto de daño</p>
+                <p>Si 1 jugador ataca y el otro medita: recibe daño el que medita</p>
+                <p>Si 1 jugador ataca y el otro contrataca: recibe daño el que ataca</p>
+                <p>Si 1 jugador contrataca y el otro medita: recibe daño el que contrataca</p>
+                <p>Si los 2 jugadores contratacan: ambos reciben un punto de daño</p>
+                <p>Si los 2 jugadores meditan: no se reciben ningún daño</p>
+            </div>
+        </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
